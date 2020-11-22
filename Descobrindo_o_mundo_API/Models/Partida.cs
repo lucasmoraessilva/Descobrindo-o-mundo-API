@@ -26,7 +26,7 @@ namespace Descobrindo_o_mundo_API.Models
         public int IdPaciente { get => _idPaciente; set => _idPaciente = value; }
         public int IdPalavra { get => _idPalavra; set => _idPalavra = value; }
         public string Data { get => _data.ToString(); set => _data = DateTime.Parse(value); }
-        public string Duracao { get => _duracao.ToString(); set => _duracao = TimeSpan.Parse(value); }
+        public string Duracao { get => _duracao.ToString() ; set => _duracao = TimeSpan.Parse(value); }
         public string Status { get => _status; set => _status = value; }
         public int QtdErros { get => _qtdErros; set => _qtdErros = value; }
         public int QtdAcertos { get => _qtdAcertos; set => _qtdAcertos = value; }
@@ -64,6 +64,20 @@ namespace Descobrindo_o_mundo_API.Models
             descobrindo_mundoContext _db = new descobrindo_mundoContext();
             _db.TblPartida.Add(tblPartida);
             _db.SaveChanges();
+        }
+
+        public List<Partida> Pesquisar(string nickname)
+        {
+            descobrindo_mundoContext _db = new descobrindo_mundoContext();
+            List<TblPartida> listaTblPartida = _db.TblPartida.Where(x => x.IdPacientePartidaNavigation.DscNicknamePaciente == nickname).ToList();
+            List<Partida> listaPartida = new List<Partida>();
+            foreach (var tblPartida in listaTblPartida)
+            {
+                Partida partida = new Partida(tblPartida.IdJogoPartida, tblPartida.IdPacientePartida, tblPartida.IdPalavraPartida, tblPartida.DtPartida.ToString(), tblPartida.DuracaoPartida.ToString(), tblPartida.StatusPartida, (int)tblPartida.QtdErrosPartida, (int)tblPartida.QtdAcertosPartida);
+                listaPartida.Add(partida);
+            }
+
+            return listaPartida;
         }
         #endregion
     }

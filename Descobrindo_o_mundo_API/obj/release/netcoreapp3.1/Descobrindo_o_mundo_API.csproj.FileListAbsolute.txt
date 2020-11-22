@@ -192,3 +192,13 @@ E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcore
 E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
 E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.deps.json
 E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.runtimeconfig.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\web.config
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.Development.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.deps.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.runtimeconfig.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\web.config
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.Development.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\appsettings.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.deps.json
+E:\workspace\Descobrindo_o_mundo_API\Descobrindo_o_mundo_API\bin\Release\netcoreapp3.1\publish\publish\publish\publish\publish\publish\publish\publish\publish\publish\Descobrindo_o_mundo_API.runtimeconfig.json
